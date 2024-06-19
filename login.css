@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* BASIC */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow:auto;
+  display: flex;
+}
+.indexBody {
+  font-family: "Poppins", sans-serif;
+  background-color: #cce6ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden !important;
+
+  
+}
+
+
+
+/* STRUCTURE */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+
+}
+.wrapperQuickLogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  margin-top: 1%;
+
+}
+#logo{
+    width:40%;
+    margin-top:-12% !important;
+    filter: drop-shadow(3px 5px 4px #93939A);
+}
+#logoo{
+  width:40%;
+  margin-top:-15% !important;
+  filter: drop-shadow(3px 5px 4px #93939A);
+}
+.body{
+  background-color: #cce6ff;;
+}
+.headLogo{
+  width:30% !important;
+}
+.logo1{
+    margin:auto;
+    margin-top: 1%;
+}
+.logoHead{
+    font-size: 150%;
+}
+.logoHeadForgotPass{
+  font-size: 30px !important;
+}
+.loginQr{
+  border-style: solid;
+  border-color: red;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+
+#QRCode{
+  border: solid 2px;
+  border-color: red;
+  ;
+}
+#QRCode{
+  margin: 0;
+  
+}
+
+
+
+#formContent {
+  border-radius: 25px;
+  background-color: white;
+  width: 25%;
+  min-width: 380px;
+  height:100%;
+  position: relative;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+#formContentQuickLogin {
+  border-radius: 25px;
+  background-color: white;
+  width: 39.8%;
+  height:480px;
+  position: relative;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+.contentBody{
+  border-radius: 25px;
+
+
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+.form{
+    margin-top: 5%;
+}
+
+.dashBody{
+  background-color: #cce6ff;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.parent{
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  height: 100%;
+}
+.dashHeader {
+  background-color: #f5c33b;
+  padding-top: .5%;
+  padding-left: .5%;
+  width: 100%;
+  height: 10%;
+  margin-left: 0px;
+}
+.dashHeader1 {
+  background-color: #ffb703;
+  padding-top: .5%;
+  padding-left: .5%;
+  width: 100%;
+  height: 10%;
+  margin-left: 0px;
+}
+.dashHeader2 {
+  background-color: #fdc500;
+  padding-top: .5%;
+  padding-left: .5%;
+  width: 100%;
+  height: 10%;
+  margin-left: 0px;
+}
+.dashHeader3 {
+  background-color: #f4e705;
+  padding-top: .5%;
+  padding-left: .5%;
+  width: 100%;
+  height: 10%;
+  margin-left: 0px;
+}
+.dashLogo{
+  width: 100%;
+}
+#dashLogo1{
+  filter: drop-shadow(3px 5px 4px #93939A);
+  width: 4%;
+  float: left;
+}
+.dashHead{
+width: 95%;
+margin-left:5% ;
+}
+.dashHead1{
+  font-size: 150%;
+margin-top: 1.3%;
+}
+.dashMenu {
+  width: 10%;
+  height: 500px;
+  float: left;
+  padding: 15px;
+  background-color: #55c6e6;
+}
+.dashMenu1 {
+  width: 10%;
+  height: 500px;
+  float: left;
+  padding: 15px;
+  background-color: #219ebc;
+}
+.dashMenu2 {
+  width: 10%;
+  height: 500px;
+  float: left;
+  padding: 15px;
+  background-color: #00509d;
+}
+.dashMenu3 {
+  width: 10%;
+  height: 500px;
+  float: left;
+  padding: 15px;
+  background-color: #2775d2;
+}
+.dashMenuHead{
+  text-align: center;
+  font-size: 150%;
+  margin-top: 30%;
+  
+}
+
+
+
+/* FORM TYPOGRAPHY*/
+#email,#password{
+    margin-top: 7%;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    width: 70%;
+    font-family: poppins-regular;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #93939A;
+  }
+  .password{
+    margin-top: 7%;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    width: 70%;
+    font-family: poppins-regular;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #93939A;
+  }
+  input::-webkit-input-placeholder {
+       opacity: 0.5; /*Change the opacity between 0 and 1*/
+  }
+#password{
+  margin-left: 5px;
+}
+.useQR{
+  float: right;
+  background-color: #133493;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 20px;
+  filter: drop-shadow(3px 5px 4px #93939A);
+}
+.useQR:hover{
+  background-color: lightblue;
+}
+.backQRForm{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.backFpForm{
+  margin-bottom: 10px;
+
+}
+.backFp,.backQR{
+  background-color: lightgray;
+  color:black;
+}
+.backQR{
+  background-color: #133493;
+  color: white;
+}
+.backQR, .backFp{
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 20px;
+  filter: drop-shadow(3px 5px 4px #93939A);
+}
+.backQR:hover, #reset:hover{
+  background-color: lightblue;
+}
+.backFp:hover{
+  background-color: gray;
+  color: white;
+}
+.login,#reset,.save{
+  width: 35%;
+  margin-top: 10%;
+  background-color: #133493;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 20px;
+  filter: drop-shadow(3px 5px 4px #93939A);
+}
+#reset{
+  width: 60% !important;
+  margin-bottom: 20px;
+}
+.save{
+  width: 50% !important;
+  margin-bottom: 50px;
+
+}
+.reg{
+    margin-top: 10% !important;
+}
+.register{
+    width: 35%;
+    background-color: #133493;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 20px;
+
+    filter: drop-shadow(3px 5px 4px #93939A);
+  }
+
+input[type=button]:hover,input[type=submit]:hover{
+  background-color: lightblue;
+}
+
+#formFooter {
+    margin-top: 5%;
+    text-align: center;
+  }
+  .fpLabel{
+color: black;
+display:inline-block;
+text-decoration: none;
+font-weight: 400;
+  }
+  .click{
+    color: rgb(6, 6, 110);
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+
+  }
+  .click:hover {
+    text-decoration: underline;
+  }
+  .qrbutton{
+    margin-left: 7px;
+  }
+  /*FOR LARGE SCREEN*/
+  @media only screen and (min-width: 1537px) {
+
+    #formContentQuickLogin{
+        height:450px;
+    }
+    #QRCode{
+      max-width:370px;
+    }
+
+    #reset{
+      width: 60% !important;
+    }
+  }
+  /*FOR MEDIUM SCREEN*/
+  @media only screen and (min-width: 1367px) and (max-width:1536px) {
+    #formContentQuickLogin{
+      height:450px;
+  }
+    #QRCode{
+      max-width:300px;
+    }
+    #reset{
+      width: 60% !important;
+    
+    }
+    .save{
+      width: 60% !important;
+    
+    }
+  }
+/*FOR SMALL SCREEN*/
+  @media only screen and (min-width: 992px) and (max-width:1366px)  {
+    #QRCode{
+      width:350px;
+      height:100%;
+    }
+    #reset{
+      width: 60% !important;
+    
+    }
+    .save{
+      width: 60% !important;
+    
+    }
+    
+  }
+/*FOR MOBILE*/
+@media only screen and (max-width: 991.98px) {
+  #QRCode{
+    width:300px;
+  }
+  .loginBody{
+    overflow: hidden !important;
+  }
+  .form{
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

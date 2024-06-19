@@ -1,0 +1,468 @@
+* {
+  box-sizing: border-box;
+}
+.regBody,#termsBody{
+  background-color: #cce6ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+#termsBody{
+  margin-top: 3%;
+}
+#last{
+  margin-bottom: 20px;
+}
+label{
+  font-family: serif;
+}
+
+#forms {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+li {
+  width: 50%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+li a:hover, .active {
+  background-color: #111;
+}
+
+option, input{
+  text-align: center;
+}
+#submitPerson, #submitOffice, #submitEvent, #submitAccount {
+  background-color: lightsalmon;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submitPerson:hover, #submitOffice:hover, #submitEvent:hover, #submitAccount:hover {
+  background-color: rgb(241, 193, 151);
+}
+.container{
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px 0px rgba(32, 5, 5, 0.5);
+  border-radius: 10px;
+}
+
+
+#visitInfo{
+border-style: solid;
+border-color: black;
+padding: 5px;
+border-radius: 10px;
+}
+#submitbtn{
+text-align: center;
+
+}
+#pictures{
+text-align: center;
+}
+#fNamePerson,#lNamePerson,#rel,#purpose, #purpose1, #purpose2{
+text-align: center;
+}
+#mInitial{
+  width: 29% !important;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#clear:hover,#photo:hover,#custom-file-upload:hover{
+background-color: gray;
+
+}
+#gender{
+text-align: center;
+}
+#female{
+margin-left: 1.5%;
+}
+
+#addressContainer,#nameContainer{
+width: 100%;
+display: flex;
+}
+.guestFirstName{
+  margin-right: 2px;
+  width: 100%;
+}
+.guestLastName{
+  margin-right: 2px;
+  width: 100%;
+}
+
+.guestSuffix{
+  width: 32% !important;
+}
+.nameContainerGuestLabel{
+  width: 100%;
+  display: flex;
+}
+.guestFNameLabel{
+  width: 100%;
+}
+.guestLNameLabel{
+  width: 100%;
+}
+.guestNameSuffixLabel{
+  width: 35%;
+}
+
+
+#houseNum,#st,#brgy,#city{
+margin-right: 1%;
+}
+
+#logo{
+  width:25%;
+  margin-top:-17%;
+  filter: drop-shadow(3px 5px 4px #93939A);
+  margin-left: 37%;
+}
+#logoTerms{
+  width:50%;
+  margin-top:-40%;
+  filter: drop-shadow(3px 5px 4px #93939A);
+  margin-left: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.fadeIn.first {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.terms{
+  background-color:white;
+}
+
+#formContent {
+
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+#confirmPasswordLbl{
+  margin-left: 42% !important;
+}
+.resetPassForm{
+  height: 400px !important;
+}
+/*FOR FULL SIZE*/
+@media(min-width:1536px) {
+h2{
+  text-align: center;
+}
+.nameContainerGuest{
+  width: 100%;
+display: flex;
+}
+.items{
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  width: 60%;
+  max-width:900px;
+  padding: 20px;
+  margin-top: 120px !important;
+}
+#gender{
+  font-size: 18px;
+}
+.container input[type="text"],.container input[type="number"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="date"],
+.container select,
+#numberOfVisitorPerson, #numberOfVisitorOffice, #numberOfVisitorEvent,
+#mobileNum,#gender {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+#houseNum{
+  width: 30%;
+}
+
+#st,#city,#province{  
+  width: 100%;
+}
+
+#submitPerson, #submitOffice, #submitEvent, #submitAccount{
+  padding: 12px 20px;
+  width: 30%;
+}
+#validFrontID, #validBackID,#selfie{
+  margin: 5px;
+  width: 400px; 
+  border-radius: 10px;
+  height:230px;
+}
+#validFrontIDportrait, #validBackIDportrait{
+  margin: 5px;
+  width:250px; 
+  border-radius: 10px;
+  height:380px;
+}
+#clear,#photo,#custom-file-upload{
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 12px 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px;
+  width: 15%;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px 5px;
+  font-family: klavika;
+ }
+ .smScreen{
+  display: none;
+}
+
+
+}
+/*FOR MID SIZE*/
+@media(min-width:501px) and (max-width: 1535px) {
+h2{
+      text-align: center;
+  }
+  .nameContainerGuest{
+    width: 100%;
+  display: flex;
+  }
+.items{
+      width: 90%;
+      margin: auto;
+      padding: 10px;
+  }
+
+.container {
+      width: 60%;
+      max-width:900px;
+      padding: 20px;
+      margin-top: 120px;
+
+    }
+.container input[type="text"],.container input[type="number"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="date"],
+.container select,
+#numberOfVisitorPerson, #numberOfVisitorOffice, #numberOfVisitorEvent,
+#mobileNum,#gender  {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      margin-bottom: 10px;
+    }
+
+#gender{
+      font-size: 16px;
+}
+    
+#houseNum{
+  width: 45%;
+
+}
+
+#st,#city,#province{
+  width: 100%;
+}
+
+#submitPerson, #submitOffice, #submitEvent, #submitAccount {
+      padding: 12px 20px;
+      width: 30%;
+    }
+#validFrontID, #validBackID,#selfie{
+      margin: 5px;
+      width:50%; 
+      border-radius: 10px;
+    }
+    #validFrontIDportrait, #validBackIDportrait{
+      margin: 5px;
+      width:30%; 
+      border-radius: 10px;
+    }
+#clear,#photo,#custom-file-upload{
+      background-color: #f6f6f6;
+      border: none;
+      color: #0d0d0d;
+      padding: 12px 10px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 80%;
+      margin: 1px;
+      width: 15%;
+      border: 2px solid #f6f6f6;
+      border-radius: 5px 5px;
+      font-family: klavika;
+     }
+.smScreen{
+  display: none !important;
+}
+
+}
+/*FOR PHONE*/
+@media screen and (max-width: 500px) {
+.container {
+      max-width: 500px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .resetPassForm{
+      height: 400px !important;
+
+    }
+.container h2 {
+      text-align: center;
+    }
+    #femalelbl,#malelbl{
+      font-size: 12px; 
+      }
+
+.container input[type="text"],.container input[type="number"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="date"],
+.container select,
+#numberOfVisitorPerson, #numberOfVisitorOffice, #numberOfVisitorEvent,
+#mobileNum,#gender  {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      margin-bottom: 10px;
+    }
+    #confirmPasswordLbl{
+      margin-left: 28% !important;
+      font-size: 15px;
+    }
+    #confirmPassword{
+      margin-left: 8px !important;
+    }
+    #mobileNumLbl{
+      margin-left: 36% !important;
+    }
+  #typeOfIDLbl{
+      margin-left: 26% !important;
+
+    }
+    #termsHeader{
+      font-size: 22px;
+    }
+#gender{
+  font-size: 14px;
+    }
+    
+#houseNum{
+  width: 45%;
+
+}
+
+#st,#city,#province{
+  width: 100%;
+}
+     #submitPerson, #submitOffice, #submitEvent, #submitAccount {
+      padding: 12px 20px;
+      width: 100%;
+    }
+    #validFrontID, #validBackID,#selfie{
+      margin: 5px;
+      width:100%; 
+      border-radius: 10px;
+    }
+    #validFrontIDportrait, #validBackIDportrait{
+      margin: 5px;
+      width:70%; 
+      border-radius: 10px;
+    }
+    #photo{
+      background-color: #f6f6f6;
+      border: none;
+      color: #0d0d0d;
+      padding: 12px 10px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 1px;
+      width: 30%;
+      height: 50px;
+      border: 2px solid #f6f6f6;
+      border-radius: 5px 5px;
+      font-family: klavika;
+    }
+    #clear,#custom-file-upload{
+      background-color: #f6f6f6;
+      border: none;
+      color: #0d0d0d;
+      padding: 12px 10px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      width: 30%;
+      border: 2px solid #f6f6f6;
+      border-radius: 5px 5px;
+      font-family: klavika;
+     }
+     #submitbtn{
+      margin-left: 23%;
+      width: 50%;
+      }
+      .guestSuffix{
+        width: 100% !important;
+      }
+      .lgScreen{
+        display: none;
+      }
+}
